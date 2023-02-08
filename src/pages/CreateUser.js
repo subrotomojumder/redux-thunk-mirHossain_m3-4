@@ -20,6 +20,7 @@ const CreateUser = () => {
         const user = { name, email };
         dispatch(addUserData(user))
     }
+    // hjjfaj
     return (
         <div className='min-h-screen bg-indigo-100 grid grid-cols-5 divide-x-2 divide-zinc-50'>
             <div className='col-span-2'>
